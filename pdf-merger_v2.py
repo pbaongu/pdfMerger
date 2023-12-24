@@ -116,4 +116,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     pdf_merger_app = PDFMergerApp()
     pdf_merger_app.show()
-    # sys.exit(app.exec_()) 
+    app.exec_()
